@@ -26,7 +26,17 @@ body {
   width: 90%;
 }
 
-/* 4. Etiqueta pequeña (Badge) */
+/* 4. Imagen de perfil ajustada */
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  margin-bottom: 15px;
+}
+
+/* 5. Etiqueta pequeña (Badge) */
 .badge {
   background-color: #e3f2fd;
   color: #0d47a1;
@@ -38,7 +48,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* 5. Títulos y Textos */
+/* 6. Títulos y Textos */
 h1 {
   color: #2c3e50;
   margin-top: 15px;
@@ -56,7 +66,7 @@ h1 {
   font-size: 0.95rem;
 }
 
-/* 6. Línea divisoria */
+/* 7. Línea divisoria */
 hr {
   border: none;
   height: 1px;
@@ -64,7 +74,7 @@ hr {
   margin: 20px 0;
 }
 
-/* 7. Botón de enlace */
+/* 8. Botón de enlace */
 .links a {
   display: inline-block;
   text-decoration: none;
